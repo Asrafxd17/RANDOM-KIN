@@ -31,30 +31,13 @@ try:
     import bs4
 except ImportError:
     print('\n [✓] installing bs4 !...\n')
-    os.system('pip install bs4')
+    os.system('pip install bs4')    
     
-    os.system('espeak -a 300 " WELCOME,   TO,  ASRAF,  TOOL,"')
-    import getpass
-
-attemps = 0
-
-while attemps < 12345677901:
-   username = input(' \033[0;92mEnter Username: ')
-   password = input(' \033[0;93mEnter Password: ')
-
- if username == 'RANDOM' and password == 'KING':
-       print(' \033[0;92mYou Have Successfully Logged in.')
-      break
-  else:
-      print(' Incorrect Pass Please Trying ')
-      attemps += 1
-       continue
-os.system('clear')
-
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
 from bs4 import BeautifulSoup
+os.system('espeak -a 300 " WELCOME,   TO,  ASRAF,  TOOL,  JOIN,   FACEBOOK,  GROUP,"')
 os.system('xdg-open https://facebook.com/groups/1234985540516131/')
 def ALEX():
     os.system('clear')
@@ -156,7 +139,7 @@ logo = """
  /_/    \_\_____/|_|  \_\/_/    \_\_|      /_/ \_\_____/ 
          
  \033[1;93m×××××××××××××××××\033[1;93m××××××××××××××\033[1;93m×××××××××.×××××××××
- \033[1;93m|     \033[1;96m[✓] CREATED BY\33[0;m   :  \033[1;96mASRAF AHMED               \033[1;93m|
+ \033[1;93m|     \033[1;96m[✓] CREATED BY\33[0;m   :  \033[1;96mASRAF AHMED   \033[1;93m|
  \033[1;93m|     \033[1;32m[✓] FACEBOK      : \033[1;34m ASRAF AHMED               \033[1;93m|
  \033[1;93m|     \033[1;35m[✓] GITHUB       :  \033[1;35mAsrafxd17               \033[1;93m|
  \033[1;93m|     \033[1;36m[✓] TOOL STATUS  : \033[1;36m Random Cloning Bd     \033[1;93m|
