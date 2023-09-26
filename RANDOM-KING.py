@@ -44,9 +44,8 @@ def ALEX():
     jalan(logo)
     jalan(' \033[1;91m[\033[1;97mA\033[1;91m]\033[1;92m R4NDOM BD CLONING \033[1;91m[\033[1;97mWorking\033[1;91m] ')
     jalan(' \033[1;91m[\033[1;97mB\033[1;91m]\033[1;92m CONTACT ME FACEBOOK')
-    jalan(' \033[1;91m[\033[1;97mC\033[1;91m]\033[1;92m FOLLOW GITHUB CCOUNT')
-    jalan(' \033[1;91m[\033[1;97mD\033[1;91m]\033[1;92m JOIN MY FB GROUP')
-    jalan(' \033[1;91m[\033[1;97mE\033[1;91m]\033[1;91m EXIT')
+    jalan(' \033[1;91m[\033[1;97mC\033[1;91m]\033[1;92m JOIN MY FB GROUP')
+    jalan(' \033[1;91m[\033[1;97mD\033[1;91m]\033[1;91m EXIT')
     jalan(' \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××××')
     opt = input('\x1b[1;32m \033[1;91m[\033[1;97m•\033[1;91m]\033[1;32mCHOOSE : ')
     if opt == 'A':
@@ -54,12 +53,9 @@ def ALEX():
     if None == 'B':
         os.system('xdg-open https://www.facebook.com/Asraf.420.65')
         return None
-    if None == 'C':
-        os.system('xdg-open https://github.com/Asrafxd17)
-        return None
-    if None == 'D':
+    if None == 'C':	   
         os.system('xdg-open https://facebook.com/groups/1234985540516131/')
-    if None == 'E':
+    if None == 'D':
         os.system('exit')
         return None
 
@@ -131,7 +127,7 @@ def jalan(z):
         time.sleep(0.001)
 
 logo = """
-              _____ _____            ______  __   _______  
+            _____ _____            ______  __   _______  
      /\    / ____|  __ \     /\   |  ____| \ \ / /  __ \ 
     /  \  | (___ | |__) |   /  \  | |__     \ V /| |  | |
    / /\ \  \___ \|  _  /   / /\ \ |  __|     > < | |  | |
