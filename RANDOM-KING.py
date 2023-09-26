@@ -173,7 +173,7 @@ def main():
     jalan(' \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××××')
     jalan(' \033[1;91m[\033[1;97m•\033[1;91m]\033[1;32m BD CODE ~ \033[1;91m+88016 \033[1;32m+88017 \033[1;94m+88018 \033[1;95m+88019')
     jalan(' \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××××')
-	os.system('espeak -a 300 " CHOOSE,   YOUR,  COUNTRY,  CODE,"')
+os.system('espeak -a 300 " CHOOSE,  YOUR,  COUNTRY,  CODE,"')	
     kode = input(' \033[1;91m[\033[1;97m•\033[1;91m]\033[1;32m CHOOSE YOUR COUNTRY CODE :\033[1;32m ')
     os.system('xdg-open https://github.com/Asrafxd17')
     os.system('clear')
